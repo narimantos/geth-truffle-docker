@@ -10,4 +10,4 @@ WORKDIR /app/test
 #ADD package.json /app/package.json
 
 RUN npm install
-#ADD . /app
+ADD . /app

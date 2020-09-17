@@ -1,6 +1,5 @@
 # Copyright 2017 - Dechain User Group
 FROM ethereum/client-go:stable
-
 RUN mkdir -p /root/.ethereum/devchain
 COPY static-nodes.json CustomGenesis.json pw /root/.ethereum/devchain/
 
